@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/Users/tobyk100/Documents/Dev/code_org/blockly/blockly/dist/media'
+let g:netrw_dirhist_2='/Users/tobyk100/Documents/Dev/code_org/blockly/blockly/src/turtle'
+let g:netrw_dirhist_3='/Users/tobyk100/Documents/Dev/code_org/blockly/blockly/src/maze'
+let g:netrw_dirhist_4='/Users/tobyk100/Documents/Dev/code_org/blockly/blockly-core/generators/javascript'
+let g:netrw_dirhist_5='/Users/tobyk100/Documents/Dev/code_org/blockly/dashboard/app'
+let g:netrw_dirhist_6='/Users/tobyk100/Documents/Dev/code_org/blockly/dashboard/app/assets/stylesheets'
+let g:netrw_dirhist_7='/Users/tobyk100/Documents/Dev/code_org/blockly/dashboard/config/locales'
+let g:netrw_dirhist_8='/Users/tobyk100/Documents/Dev/code_org/blockly/dashboard/app'
+let g:netrw_dirhist_9='/Users/tobyk100/Documents/Dev/code_org/blockly/dashboard/config/deploy'
