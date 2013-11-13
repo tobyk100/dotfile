@@ -51,3 +51,6 @@ export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
 export ANDROID_HOME=/usr/local/opt/android-sdk
+
+### Apparix
+source $HOME/.bash_apparix
