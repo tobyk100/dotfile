@@ -1,0 +1,4 @@
+brew install vim git node android
+brew tap phinze/homebrew-cask
+brew install brew-cask
+brew cask install --appdir="/Applications" google-chrome hipchat vmware-fusion spotify
