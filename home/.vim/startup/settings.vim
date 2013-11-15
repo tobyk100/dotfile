@@ -54,7 +54,7 @@ au BufRead,BufNewFile *.ru setfiletype ruby
 au BufRead,BufNewFile *.md set wrap
 au BufRead,BufNewFile Vagrantfile setfiletype ruby
 
-let g:syntastic_javascript_checkers=['jsl']
+let g:syntastic_javascript_checkers=['jshint']
 
 colorscheme desert
 
