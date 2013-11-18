@@ -46,6 +46,7 @@ match OverLength  /\%>80v.\+/
 set omnifunc=syntaxcomplete#Complete
 syntax enable
 filetype plugin indent on  " Also turns on filetype and plugin
+let g:syntastic_mode_map = { 'mode': 'passive' }
 
 "============ File specific stuff ================
 au BufRead,BufNewFile *.soy setfiletype html
