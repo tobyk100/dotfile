@@ -47,6 +47,9 @@ export PATH="$PATH:/Users/tobyk100/Documents/Dev/depot_tools"
 
 export PATH="$HOME/.rbenv/shims:$PATH"
 
+### Bundle alias
+alias be='bundle exec'
+
 export CLICOLOR=1
 export LSCOLORS=GxFxCxDxBxegedabagaced
 
@@ -55,3 +58,5 @@ export ANDROID_SDK_HOME=/usr/local/opt/android-sdk
 
 ### Apparix
 source $HOME/.bash_apparix
+
+set -o vi
