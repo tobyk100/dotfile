@@ -50,3 +50,6 @@ map <leader>s :SyntasticCheck<CR>
 " fugitive and vimdiff
 nmap <leader>g :Gstatus<CR>:on<CR>
 nmap <leader>d :diffupdate<CR>
+
+" Easy Motion
+map <Leader> <Plug>(easymotion-prefix)
