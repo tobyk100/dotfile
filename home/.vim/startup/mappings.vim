@@ -48,8 +48,10 @@ map <leader>md :w !/usr/local/bin/Markdown.pl --html4tags > %.html<ESC>:!open %.
 map <leader>s :SyntasticCheck<CR>
 
 " fugitive and vimdiff
-nmap <leader>g :Gstatus<CR>:on<CR>
 nmap <leader>d :diffupdate<CR>
 
 " Easy Motion
 map <Leader> <Plug>(easymotion-prefix)
+
+" Vimgrep
+nmap <Leader>g :grep -r <cword> ./
