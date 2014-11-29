@@ -22,6 +22,7 @@ nmap g<C-O> o<ESC>k
 nmap gO O<ESC>j
 
 imap <c-u> <esc>g~iwea
+inoremap jk <Esc>
 
 map <C-n> :NERDTreeToggle<CR>
 
@@ -29,6 +30,7 @@ noremap <C-J> <C-W><C-J>
 noremap <C-K> <C-W><C-K>
 noremap <C-L> <C-W><C-L>
 noremap <C-H> <C-W><C-H>
+
 
 " Quickfix and Location lists
 

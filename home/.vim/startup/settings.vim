@@ -7,7 +7,7 @@ set wildmenu
 set wildmode=list:longest
 set shortmess=I  " Don't give intro message when starting vim.
 set nowrap
-set paste
+set nopaste
 
 set cursorline
 set cursorcolumn

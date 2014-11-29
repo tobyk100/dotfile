@@ -13,9 +13,12 @@
 [submodule ".vim/bundle/vim-indent-guides.git"]
 	path = home/.vim/bundle/vim-indent-guides.git
 	url = git://github.com/nathanaelkane/vim-indent-guides.git
-[submodule "home/.vim/bundle/syntastic"]
+[submodule ".vim/bundle/syntastic"]
 	path = home/.vim/bundle/syntastic
 	url = https://github.com/scrooloose/syntastic.git
-[submodule "home/.vim/bundle/vim-surround"]
+[submodule ".vim/bundle/vim-surround"]
 	path = home/.vim/bundle/vim-surround
 	url = git://github.com/tpope/vim-surround.git
+[submodule ".vim/bundle/vim-easymotion"]
+	path = home/.vim/bundle/vim-easymotion
+	url = https://github.com/Lokaltog/vim-easymotion.git
