@@ -1,3 +1,6 @@
+if [ -f ~/.bashrc ]; then
+  . ~/.bashrc
+fi
 # source ~/.secrets
 
 alias ls='ls -G'
