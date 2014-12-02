@@ -1,6 +1,3 @@
-if [ -f ~/.bashrc ]; then
-  . ~/.bashrc
-fi
 # source ~/.secrets
 
 alias ls='ls -G'
@@ -34,7 +31,8 @@ alias gf='git fetch'
 git config --global user.email "tobyk100@gmail.com"
 git config --global user.name "toby"
 
-alias v='vim'
+alias vi='gvim -v'
+alias vim='gvim -v'
 
 ### Autocomplete Git
 # if [ -f ~/.git-completion.bash ]; then

@@ -33,7 +33,7 @@ set list listchars=trail:·,eol:¬  " Visually display trailing whitespace and e
 set splitbelow  " Change default behavior to open splits below and to the right.
 set splitright
 
-set colorcolumn=80
+"set colorcolumn=80
 
 " Color stuff
 highlight SpecialKey ctermfg=7
