@@ -12,6 +12,10 @@ set nopaste
 set cursorline
 set cursorcolumn
 
+if has('unnamedplus')
+  set clipboard=unnamed,unnamedplus
+endif
+
 
 if &diff
   set wrap
@@ -52,7 +56,7 @@ let g:syntastic_mode_map = { 'mode': 'passive' }
 au BufRead,BufNewFile *.soy setfiletype html
 au BufRead,BufNewFile *.rb setfiletype ruby set ruler
 au BufRead,BufNewFile *.ru setfiletype ruby
-au BufRead,BufNewFile *.md set wrap
+au BufRead,BufNewFile *.md set nonumber colorcolumn= formatoptions=ant wrapmargin=0 spell filetype=markdown
 au BufRead,BufNewFile Vagrantfile setfiletype ruby
 
 let g:syntastic_javascript_checkers=['jshint']

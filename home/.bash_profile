@@ -29,7 +29,9 @@ alias gf='git fetch'
 
 # Git config
 git config --global user.email "tobyk100@gmail.com"
-git config --global user.name "toby"
+git config --global user.name "Toby Kahan"
+git config --global credential.helper cache
+git config --global credential.helper 'cache --timeout=360000'
 
 alias v='vim'
 
