@@ -33,7 +33,8 @@ git config --global user.name "Toby Kahan"
 git config --global credential.helper cache
 git config --global credential.helper 'cache --timeout=360000'
 
-alias v='vim'
+alias vi='gvim -v'
+alias vim='gvim -v'
 
 ### Autocomplete Git
 # if [ -f ~/.git-completion.bash ]; then
