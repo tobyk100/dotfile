@@ -27,6 +27,10 @@ alias gr='git remote -v'
 alias gpu='git pull'
 alias gf='git fetch'
 
+
+### Screen alias
+alias s='screen -c ~/.screenrc'
+
 # Git config
 git config --global user.email "tobyk100@gmail.com"
 git config --global user.name "Toby Kahan"
@@ -42,6 +46,9 @@ alias vim='gvim -v'
 # fi
 
 export PATH="/usr/local/bin:$PATH"
+
+# Tab completion for python
+export PYTHONSTARTUP="$HOME/.pythonstartup.py"
 
 ### Added by the Heroku Toolbelt
 # export PATH="/usr/local/heroku/bin:$PATH"
