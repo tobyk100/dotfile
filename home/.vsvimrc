@@ -1,0 +1,66 @@
+cnoremap <C-a> <Home>
+cnoremap <C-e> <End>
+cnoremap <C-b> <S-Left>
+cnoremap <C-f> <S-Right>
+
+no <up> <Nop>
+no <down> <Nop>
+no <left> <Nop>
+no <right> <Nop>
+
+ino <up> <Nop>
+ino <down> <Nop>
+ino <left> <Nop>
+ino <right> <Nop>
+
+vno <up> <Nop>
+vno <down> <Nop>
+vno <left> <Nop>
+vno <right> <Nop>
+
+nmap g<C-O> o<ESC>k
+nmap gO O<ESC>j
+
+imap <c-u> <esc>g~iwea
+inoremap jk <Esc>
+
+map <C-n> :NERDTreeToggle<CR>
+
+noremap <C-J> <C-W><C-J>
+noremap <C-K> <C-W><C-K>
+noremap <C-L> <C-W><C-L>
+noremap <C-H> <C-W><C-H>
+
+
+" Quickfix and Location lists
+
+nmap [q :cprev<CR>
+nmap ]q :cnext<CR>
+nmap [Q :cfirst<CR>
+nmap ]Q :clast<CR>
+
+nmap [l :lprev<CR>
+nmap ]l :lnext<CR>
+nmap [L :lfirst<CR>
+nmap ]L :llast<CR>
+
+set incsearch  " Highlights potential match as it is being typed.
+set nowrap
+
+set cursorline
+
+if &diff
+  set wrap
+endif
+set number  " Show line numbers.
+
+set expandtab  " Turn tabs into spaces.
+set tabstop=2  " Number of spaces to turn a tab into.
+set shiftwidth=2  " Number of spaces to tab when using << or >> comands.
+set autoindent  " Indent same as previous line instead of no indent. Overriden
+                " by smartindent, which should be set in a file's indent
+                " settings.
+
+set backspace=2
+set history=100  " Increase command history from tiny default.
+
